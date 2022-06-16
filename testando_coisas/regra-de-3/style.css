@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: green;
+    padding: 20px;
+    margin: -10;
+}
+
+section {
+    background-color: white;
+    margin: 100px;
+}
+h2 {
+    margin-left: 40px;
+}
+
+button{
+    height: 50px;
+    background-color: green;
+}
+
+input{
+    margin: 20px;
+    padding: 15px;
+}
+
+.rs{
+    padding: 10px;
+    display: flex;
+    display: inline;
+}
+
+.resultado {
+    display: flex;
+    display: inline;
+  
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+}
