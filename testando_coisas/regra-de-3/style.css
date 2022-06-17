@@ -1,18 +1,14 @@
 *{
     margin: 0%;
+    
 }
 
-header {
-    text-align: center;
-    background-color: black;
-    color: green;
-    padding: 20px;
-    margin: -10;
-}
 
 section {
     background-color: white;
-    margin: 100px;
+    margin: auto;
+    margin-top: 200px;
+    max-width: 600px;
 }
 h2 {
     margin-left: 40px;
@@ -20,7 +16,7 @@ h2 {
 
 button{
     height: 50px;
-    background-color: green;
+    
 }
 
 input{
@@ -38,6 +34,11 @@ input{
     display: flex;
     display: inline;
   
+}
+
+#x{
+    width: 200px;
+    height: 50px;
 }
 
 body{
