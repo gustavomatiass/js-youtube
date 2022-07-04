@@ -12,7 +12,7 @@ function addTask(){
        const newTask = template.cloneNode(true);
 
        //add titulo
-        newTask.querySelector(".task-list").textContent = taskTitle;
+        newTask.querySelector(".task-title").textContent = taskTitle;
 
         // remover classes des
         newTask.classList.remove("template");
@@ -23,7 +23,33 @@ function addTask(){
 
         list.appendChild(newTask);
 
+        // adicionar o evento de remover
+        const removeBtn = newTask.querySelector(".remove-btn").addEventListener("click", function(){
+            removeTask(this);
+        });
+        // add evento de completa tarefa
+        const doneBtn = newTask.querySelector(".done-btn").addEventListener("click", function(){
+            completeTask(this);
+        });
+        
+        //limpar texto
+        document.querySelector("#task-title").value = "";
     }
+
+}
+
+//função de remover tarefa 
+function removeTask(task) {
+
+    task.parentNode.remove(true);
+}
+
+// funda de tarefa feita
+function completeTask(task) {
+
+    const taskComplete = task.parentNode;
+
+    taskComplete.classList.toggle("done");
 
 }
 
