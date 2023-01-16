@@ -9,13 +9,34 @@
         body{
             text-align: center;
         }
+        input{
+            margin: 20px;
+            padding: 80px;
+            font-size: 40px;
+            
+        }
     </style>
 </head>
-<body>
+<body onresize="alert('ouver um redimencionamento')">
      
     <h1 id="titulo">funções</h1>
     <p id="texto"></p>
-    <button ondblclick="eventoDblClick()">clique aqui</button>
+    <button ondblclick="eventoDblClick()">clique aqui</button><br> <br> <br>
+
+    <select onchange="mudou()" id="itens">
+        <option value="1">valor 1</option>
+        <option value="2">valor 2</option>
+        <option value="3">valor 3</option>
+        <option value="4">valor 4</option>
+    </select>
+    <br><br><br>
+
+    <div id="teste" onmouseout="viraAzul()" onmouseover="viraAmarelo()" style="width:80%; height: 200px; background-color: blue; margin: auto;">
+    </div>
+
+    <br>
+
+    <input onkeyup="teclaPressionada()" onblur="eventoClick()" onchange="mudou()" id="compoTexto" type="text" placeholder="Digite alguma coisa">
 
 
     <script src="script.js"></script>
