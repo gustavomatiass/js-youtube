@@ -20,5 +20,5 @@ for(var i = 0; i < lista.length; i++){
 
     lifor.appendChild(textoLI);
 
-    console.log(lista[i]);
+    listaNoNobody[0].appendChild(lifor);
 }
