@@ -21,12 +21,18 @@
     </style>
 </head>
 <body>
-    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()" >
+    <div id="area" onmouseout="sair()" >
         interaja...
     </div>
 
     <script>
          var a = document.getElementById('area');
+        a.addEventListener('click', clicar);
+        a.addEventListener('enter', entrar);
+        a.addEventListener('mouseenter', entrar);
+        a.addEventListener('mouseout', sair);
+        a.addEventListener('dblclick', normal);
+
         function clicar(){
             a.innerText = 'clicou'
             a.style.background = 'blue'
@@ -45,6 +51,12 @@
             var copo = document.body
             copo.style.background = 'white'
             a.style.background = 'green'
+        }
+        function normal(){
+            a.innerText = '2 clicks'
+            a.style.background = 'green'
+            var corpo = document.body
+            corpo.style.background = 'white'
         }
 
     </script>
