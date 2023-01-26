@@ -1,5 +1,14 @@
 body{
     background: black;
+
+}
+h1{
+    position: absolute;
+    text-align: center;
+    font-size: 250px;
+    margin: -80px;
+    z-index: -1;
+    opacity: 0.1;
 }
 
 a{
@@ -19,6 +28,7 @@ ul{
 .degrade {
     background: -webkit-linear-gradient(left, #8854d0, #4e0096);
     background: linear-gradient(to right,#8854d0, #4e0096);
+    
 }
 
 .degrade2 {
@@ -29,4 +39,14 @@ ul{
 .degrade3 {
     background: -webkit-linear-gradient(left, #ff8800, #ffb347);
     background: linear-gradient(to right, #ff8800, #ffb347);
+}
+
+.degrade4 {
+    background: linear-gradient(to right, orange, yellow);
+  }
+.degrade5 {
+    background: linear-gradient(to right, orange, blue);
+}
+.degrade6 {
+    background: linear-gradient(to right, rgb(36, 36, 110), blue);
 }
