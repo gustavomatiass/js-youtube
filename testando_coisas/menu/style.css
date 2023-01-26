@@ -1,0 +1,32 @@
+body{
+    background: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20pt;
+}
+
+ul{
+    padding: 10px;
+    margin: 300px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.degrade {
+    background: -webkit-linear-gradient(left, #8854d0, #4e0096);
+    background: linear-gradient(to right,#8854d0, #4e0096);
+}
+
+.degrade2 {
+    background: -webkit-linear-gradient(left, #8854d0, #1e90ff);
+    background: linear-gradient(to right, #8854d0, #1e90ff);
+}
+
+.degrade3 {
+    background: -webkit-linear-gradient(left, #ff8800, #ffb347);
+    background: linear-gradient(to right, #ff8800, #ffb347);
+}
