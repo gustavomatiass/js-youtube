@@ -37,7 +37,7 @@ function calcular(){
 
 
 var quadro = document.getElementById('tudo');
-quadro.addEventListener('mousemove', qmover);
+quadro.addEventListener('mouseenter', qmover);
 quadro.addEventListener('mouseout', sair);
 
 function qmover(){
