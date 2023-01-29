@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(4, 59, 4);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    
+    display: flex;
+    display: inline;
+    margin: 50px;
+    position: absolute;
+}
+
+
+#cr7{
+    display: flex;
+    display: inline;
+    height: 0px;
+}
+
+#messi{
+    display: flex;
+    display: inline;
+    margin: 30px;
+    height: 250px;
+}
