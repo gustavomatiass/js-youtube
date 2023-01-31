@@ -19,6 +19,9 @@
 
     <h1 id="resultado"></h1>
 
+    <img src="" alt="">
+    
+
     <script>
         var v1 = document.getElementById('valor01');
         var v2 = document.getElementById('valor02');
@@ -36,9 +39,20 @@
             var sum = num1 + num2;
            res.innerHTML = sum;
 
-           if(sum > 2){
+           if(sum == 10){
             var img = document.createElement('img');
-            img.src = ''
+            img.src = 'img/cr7.jpeg'
+            document.body.appendChild(img)
+           }
+           if(sum == 20  ){
+            var img = document.createElement('img');
+            img.src = 'img/messi.jpeg'
+            document.body.appendChild(img)
+           }
+           else if(sum >30){
+            var img = document.createElement('img');
+            img.src = 'img/neymar-comemora-gol-marcado-pela-selecao-brasileira-contra-a-tunisia-1664308063053_v2_450x600.jpg'
+            document.body.appendChild(img)
            }
             
         }
