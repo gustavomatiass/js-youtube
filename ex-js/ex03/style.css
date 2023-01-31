@@ -17,7 +17,7 @@ body{
 
 #dados{
     background-color: white;
-    height: 680px;
+    height: 780px;
     width: 1950px;
     margin: auto;
     border-radius: 15px;
@@ -58,13 +58,22 @@ input{
     border-radius: 10px;
 }
 
-#numerotelefone{
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
+
+#senhar{
     display: flex;
     padding: 20px;
     margin-left: 150px;
 }
 
-#numerotelefone input{
+#senhar input{
     height: 0px;
     margin-top: 25px;
     margin-left: 50px;
@@ -91,7 +100,7 @@ input{
 button{
     height: 80px;
     width: 180px;
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: rgb(124, 13, 228);
     color: white;
     font-size: 20pt;
