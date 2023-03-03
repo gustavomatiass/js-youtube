@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #0067a7, #1E90FF);
+    color: white;
+}
+
+form{
+    width: 600px;
+    margin: 342px auto;
+    text-align: center;
+}
+
+input{
+    display: block;
+    margin: 10px auto;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
